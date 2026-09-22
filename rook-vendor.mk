@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/amazon/rook
 
 PRODUCT_COPY_FILES += \
+    vendor/amazon/rook/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/amazon/rook/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/amazon/rook/proprietary/etc/audio_device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_device.xml \
     vendor/amazon/rook/proprietary/vendor/lib/hw/audio.primary_amazon.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary_amazon.mt8163.so \
